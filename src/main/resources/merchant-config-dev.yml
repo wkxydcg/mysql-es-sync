@@ -1,0 +1,19 @@
+database:
+  host: 120.27.161.217
+  port: 3307
+  schema: upay_core
+  serviceId: 100
+  username: wosai
+  password: tmdQvQlvKEqP5wvuA1g
+  tables:
+    - name: merchant
+      columns:
+        - id
+        - name
+      primaryKey: id
+      esIndex: upay_core_test
+      esType: merchant
+elasticSearch:
+  url: http://106.15.196.231:9200
+  username: wkx
+  password: 123
